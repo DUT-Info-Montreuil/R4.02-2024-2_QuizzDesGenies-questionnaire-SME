@@ -1,6 +1,6 @@
 package org.univ_paris8.iut.montreuil.qdev.tp2024.gr2.QuizzDesGenies.entities.dto;
 
-import org.univ_paris8.iut.montreuil.qdev.tp2024.gr2.QuizzDesGenies.utils.enums.Langue;
+import org.univ_paris8.iut.montreuil.qdev.tp2024.gr2.QuizzDesGenies.utiles.enums.Langue;
 
 public class QuestionDTO {
 

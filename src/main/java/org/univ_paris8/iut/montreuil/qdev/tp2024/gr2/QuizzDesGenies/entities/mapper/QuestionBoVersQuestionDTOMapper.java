@@ -2,7 +2,7 @@ package org.univ_paris8.iut.montreuil.qdev.tp2024.gr2.QuizzDesGenies.entities.ma
 
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr2.QuizzDesGenies.entities.bo.QuestionBO;
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr2.QuizzDesGenies.entities.dto.QuestionDTO;
-import org.univ_paris8.iut.montreuil.qdev.tp2024.gr2.QuizzDesGenies.utils.enums.Langue;
+import org.univ_paris8.iut.montreuil.qdev.tp2024.gr2.QuizzDesGenies.utiles.enums.Langue;
 
 public class QuestionBoVersQuestionDTOMapper {
 
