@@ -6,7 +6,7 @@ public class QuestionDTO {
 
     private int id_question;
     private String num_question;
-    private Enum<Langue> langue;
+    private Langue langue;
     private String libelle_question;
     private String reponse;
     private int difficulte;
@@ -27,11 +27,11 @@ public class QuestionDTO {
         this.num_question = num_question;
     }
 
-    public Enum<Langue> getLangue() {
+    public Langue getLangue() {
         return langue;
     }
 
-    public void setLangue(Enum<Langue> langue) {
+    public void setLangue(Langue langue) {
         this.langue = langue;
     }
 
