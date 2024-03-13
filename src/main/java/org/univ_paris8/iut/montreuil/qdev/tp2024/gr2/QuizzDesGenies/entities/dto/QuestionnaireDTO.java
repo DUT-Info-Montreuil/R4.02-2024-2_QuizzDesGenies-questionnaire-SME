@@ -25,4 +25,11 @@ public class QuestionnaireDTO {
     public void deleteQuestion(QuestionDTO question) {
         questionnaire.remove(question);
     }
+
+    @Override
+    public String toString() {
+        return "QuestionnaireDTO{" +
+                "questionnaire=" + questionnaire +
+                '}';
+    }
 }

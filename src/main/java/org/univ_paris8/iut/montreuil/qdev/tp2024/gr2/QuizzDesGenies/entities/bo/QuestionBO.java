@@ -86,5 +86,17 @@ public class QuestionBO {
         this.reference = reference;
     }
 
-
+    @Override
+    public String toString() {
+        return "QuestionBO{" +
+                "id_question='" + id_question + '\'' +
+                ", num_question='" + num_question + '\'' +
+                ", langue='" + langue + '\'' +
+                ", libelle_question='" + libelle_question + '\'' +
+                ", reponse='" + reponse + '\'' +
+                ", difficulte='" + difficulte + '\'' +
+                ", explication='" + explication + '\'' +
+                ", reference='" + reference + '\'' +
+                '}';
+    }
 }

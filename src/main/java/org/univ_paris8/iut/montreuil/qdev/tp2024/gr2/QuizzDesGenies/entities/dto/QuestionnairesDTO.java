@@ -17,4 +17,11 @@ public class QuestionnairesDTO {
     public void setListe_questionnaire(ArrayList<QuestionnaireDTO> liste_questionnaire) {
         this.liste_questionnaire = liste_questionnaire;
     }
+
+    @Override
+    public String toString() {
+        return "QuestionnairesDTO{" +
+                "liste_questionnaire=" + liste_questionnaire +
+                '}';
+    }
 }

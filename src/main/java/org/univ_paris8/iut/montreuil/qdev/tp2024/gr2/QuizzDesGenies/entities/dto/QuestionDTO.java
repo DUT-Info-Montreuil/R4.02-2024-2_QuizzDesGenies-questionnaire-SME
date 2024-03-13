@@ -67,4 +67,16 @@ public class QuestionDTO {
     public void setDifficulte(int difficulte) {
         this.difficulte = difficulte;
     }
+
+    @Override
+    public String toString() {
+        return "QuestionDTO{" +
+                "id_question=" + id_question +
+                ", num_question=" + num_question +
+                ", langue=" + langue +
+                ", libelle_question='" + libelle_question + '\'' +
+                ", reponse='" + reponse + '\'' +
+                ", difficulte=" + difficulte +
+                '}';
+    }
 }
