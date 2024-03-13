@@ -10,6 +10,10 @@ public class QuestionnaireDTO {
         this.questionnaire = questionnaire;
     }
 
+    public QuestionnaireDTO() {
+        this.questionnaire = new ArrayList<>();
+    }
+
     public ArrayList<QuestionDTO> getQuestionnaire() {
         return questionnaire;
     }
