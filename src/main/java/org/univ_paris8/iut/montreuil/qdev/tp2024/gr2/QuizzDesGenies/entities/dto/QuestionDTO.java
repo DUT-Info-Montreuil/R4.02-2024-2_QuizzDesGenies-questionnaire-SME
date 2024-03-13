@@ -5,11 +5,20 @@ import org.univ_paris8.iut.montreuil.qdev.tp2024.gr2.QuizzDesGenies.utils.enums.
 public class QuestionDTO {
 
     private int id_question;
-    private String num_question;
+    private int num_question;
     private Langue langue;
     private String libelle_question;
     private String reponse;
     private int difficulte;
+
+    public QuestionDTO(int id_question, int num_question, Langue langue, String libelle_question, String reponse, int difficulte) {
+        this.id_question = id_question;
+        this.num_question = num_question;
+        this.langue = langue;
+        this.libelle_question = libelle_question;
+        this.reponse = reponse;
+        this.difficulte = difficulte;
+    }
 
     public int getId_question() {
         return id_question;
@@ -19,11 +28,11 @@ public class QuestionDTO {
         this.id_question = id_question;
     }
 
-    public String getNum_question() {
+    public int getNum_question() {
         return num_question;
     }
 
-    public void setNum_question(String num_question) {
+    public void setNum_question(int num_question) {
         this.num_question = num_question;
     }
 

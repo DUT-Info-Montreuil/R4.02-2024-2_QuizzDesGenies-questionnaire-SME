@@ -2,7 +2,7 @@ package org.univ_paris8.iut.montreuil.qdev.tp2024.gr2.QuizzDesGenies.entities.bo
 
 public class QuestionBO {
 
-    private String id_questionnaire;
+    private String id_question;
     private String num_question;
     private String langue;
     private String libelle_question;
@@ -11,8 +11,8 @@ public class QuestionBO {
     private String explication;
     private String reference;
 
-    public QuestionBO(String id_questionnaire, String num_question, String langue, String libelle_question, String reponse, String difficulte, String explication, String reference) {
-        this.id_questionnaire = id_questionnaire;
+    public QuestionBO(String id_question, String num_question, String langue, String libelle_question, String reponse, String difficulte, String explication, String reference) {
+        this.id_question = id_question;
         this.num_question = num_question;
         this.langue = langue;
         this.libelle_question = libelle_question;
@@ -22,12 +22,12 @@ public class QuestionBO {
         this.reference = reference;
     }
 
-    public String getId_questionnaire() {
-        return id_questionnaire;
+    public String getId_question() {
+        return id_question;
     }
 
-    public void setId_questionnaire(String id_questionnaire) {
-        this.id_questionnaire = id_questionnaire;
+    public void setId_question(String id_question) {
+        this.id_question = id_question;
     }
 
     public String getNum_question() {
