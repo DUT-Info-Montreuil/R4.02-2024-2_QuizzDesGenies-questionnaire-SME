@@ -4,19 +4,19 @@ import org.univ_paris8.iut.montreuil.qdev.tp2024.gr2.QuizzDesGenies.utils.Langue
 
 public class QuestionDTO {
 
-    private int id_questionnaire;
+    private int id_question;
     private String num_question;
     private Enum<Langue> langue;
     private String libelle_question;
     private String reponse;
     private int difficulte;
 
-    public int getId_questionnaire() {
-        return id_questionnaire;
+    public int getId_question() {
+        return id_question;
     }
 
-    public void setId_questionnaire(int id_questionnaire) {
-        this.id_questionnaire = id_questionnaire;
+    public void setId_question(int id_question) {
+        this.id_question = id_question;
     }
 
     public String getNum_question() {
