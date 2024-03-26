@@ -42,7 +42,7 @@ public class TestQuestion {
     public void testChargerQuestionnaireCSVFichierNonTrouve() throws FichierNonTrouverException {
         //IQuestionnaire questionnaire = new QuestionnaireImplMock();
         //String chemin = "src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr2/QuizzDesGenies/service/impl/QuestionnaireImplMock.java";
-        String chemin = "";
+        String chemin = "src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr2/QuizzDesGenies/ressources/questionsQuizz_V1.1.csv";
 
 
         File file = new File(chemin);
