@@ -1,18 +1,17 @@
 package org.univ_paris8.iut.montreuil.qdev.tp2024.gr2.QuizzDesGenies.util;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr2.QuizzDesGenies.entities.dto.QuestionDTO;
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr2.QuizzDesGenies.entities.dto.QuestionnaireDTO;
-import org.univ_paris8.iut.montreuil.qdev.tp2024.gr2.QuizzDesGenies.service.impl.QuestionnaireImplMock;
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr2.QuizzDesGenies.services.impl.QuestionnaireImpl;
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr2.QuizzDesGenies.services.interfaces.IQuestionnaire;
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr2.QuizzDesGenies.utiles.exceptions.FichierNonTrouverException;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 
-import static org.junit.Assert.assertTrue;
+import static junit.framework.Assert.assertTrue;
+
 
 public class TestQuestion {
 
